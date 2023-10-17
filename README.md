@@ -1,29 +1,11 @@
-#Almuerzi - Aplicación de Orden de Comida
-Almuerzi es una aplicación de orden de comida que permite a los usuarios seleccionar comidas de un menú y, si tienen los permisos adecuados, agregarlas a la lista de pedidos.
+# UserPosts
+Esta es una aplicación que obterndrá los usuarios de una API, seguidamente nosi llevará a una página con todos sus posts y si pinchamos en el post nos dará toda la información de este.
 
-##Descripción
-Almuerzi es una aplicación sencilla y fácil de usar para realizar pedidos de comida. Los usuarios pueden navegar por un menú de opciones de comida y, si están autorizados, agregar elementos a su pedido. La aplicación se ejecuta en un servidor en Vercel y está integrada con un repositorio de Create React App, lo que proporciona una experiencia serverless.
+## Método de ejecución
+El método que he utilizado yo para ejecutar este repositorio es el siguiente, me he creado un dispositivo vistual en android studio. Estos pasos tambien se podrán replicar desde Xcode para iOS, o desde dispositivos físicos con sus respectivas aplicaciones. Una vez tengamos ya el dispositivo activo simplemente tendremos que ejecutar el siguiente comando:
 
-##Características
-Menú de Comida: Los usuarios pueden ver una lista de opciones de comida disponibles.
-Agregar al Pedido: Los usuarios pueden agregar elementos del menú a su lista de pedidos.
-Autorización: La aplicación gestiona los permisos de usuario para agregar elementos al pedido.
+yarn start
+Al haber implementado la aplicación con expo, esto por debajo ejecuta el comando:
 
-##Cómo Ejecutar la Aplicación
-Siga estos pasos para ejecutar la aplicación Almuerzi en su entorno local:
-
-Clona este repositorio en tu máquina:
-bash
-Copy code
-git clone https://github.com/tu-usuario/almuerzi-app.git
-Instala las dependencias:
-Copy code
-npm install
-Ejecuta la aplicación:
-sql
-Copy code
-npm start
-La aplicación se ejecutará en su servidor local y estará disponible en http://localhost:3000.
-
-##Acceso a la Aplicación
-Para acceder a la aplicación, visita la URL de despliegue en Vercel o en el servidor que tengas configurado.
+expo start
+que lanzará expo y hará posible el despliegue de la aplicación en el dispositivo móvil. Seleccionaremos el sistema operativo que deseamos y se lanzará en el dispositivo seleccionado anteriomente.
